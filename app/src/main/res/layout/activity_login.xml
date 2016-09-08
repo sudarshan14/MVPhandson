@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/linearLayout"
     tools:context="sid.angel.careerguide.LoginActivity">
 
     <!-- Login progress -->
@@ -70,6 +71,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:onClick="onClickAddName"
                 android:text="@string/action_sign_in"
                 android:textStyle="bold" />
 
