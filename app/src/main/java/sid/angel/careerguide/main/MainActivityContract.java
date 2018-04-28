@@ -11,9 +11,13 @@ public interface MainActivityContract  {
 
     public interface MvpView{
 
+        void showSignUpActivity();
+
     }
 
     public interface Presenter{
+
+        void handleSignUpClick();
 
     }
 
