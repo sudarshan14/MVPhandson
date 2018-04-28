@@ -27,9 +27,13 @@
             android:name=".MyProvider"
             android:authorities="sid.angel.careerguide.MyProvider"
             android:exported="true"
-            android:multiprocess="true"></provider>
+            android:multiprocess="true" />
 
-        <activity android:name=".main.MainActivity"></activity>
+        <activity android:name=".main.MainActivity" />
+        <activity
+            android:name=".signup.SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
