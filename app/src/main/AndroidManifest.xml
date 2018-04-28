@@ -23,14 +23,13 @@
             </intent-filter>
         </activity>
 
-
         <provider
             android:name=".MyProvider"
             android:authorities="sid.angel.careerguide.MyProvider"
             android:exported="true"
-            android:multiprocess="true" >
-        </provider>
+            android:multiprocess="true"></provider>
 
+        <activity android:name=".main.MainActivity"></activity>
     </application>
 
 </manifest>
