@@ -17,11 +17,26 @@ Polymorphism(){
        // super();
 
     }
+    Runtime obk = Runtime.getRuntime();
 
     static List mylist;
 
     public static void main(String[] args) {
 
+
+        String s  = new String("hari is dumb");
+        System.out.println(s);
+
+
+        s.concat("but he is improving ");// change will not happe. Immutable behaviour(non changable)
+        System.out.println(s);
+
+        StringBuilder sb  = new StringBuilder("hari is dumb ");
+        System.out.println(sb.toString());
+
+
+        sb.append("but he is improving ");
+        System.out.println(sb.toString());
 
         Polymorphism polymorphism = new Polymorphism(10);
 
@@ -41,6 +56,8 @@ Polymorphism(){
         for (int i = 0; i < mylist.size(); i++) {
 
 
+//PrivateConstructor o = new PrivateConstructor(10);
+            PrivateConstructor t = PrivateConstructor.getTest();
             ArrayList list = new ArrayList();
             list.add(mylist.get(i));
             for (int j = 0; j < list.size(); j++) {
