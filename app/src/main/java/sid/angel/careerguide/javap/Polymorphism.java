@@ -13,7 +13,7 @@ Polymorphism(){
 }
 
     Polymorphism(int i){
-        System.out.print("hello from default"+i);
+        System.out.print("hello from default dd"+i);
        // super();
 
     }
