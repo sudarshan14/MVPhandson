@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "sid.bhatt.applinking",
+    "sha256_cert_fingerprints":
+    ["DA:EB:18:F8:E6:3E:E9:24:07:88:02:8A:7F:59:29:1E:F4:86:74:16:71:FD:9D:2E:8C:4B:E3:F1:0A:FB:BF:75"]
+  }
+}]
